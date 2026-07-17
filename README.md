@@ -22,6 +22,10 @@ A deployed and monitored SSH honeypot using [Cowrie](https://github.com/cowrie/c
 to capture and analyze unauthorized login attempts and attacker behavior,
 simulating real-world SOC log analysis workflows.
 
+## Demo
+![Demo](screenshots/demo.gif)
+*A simulated attacker logging into the honeypot and running commands, captured live*
+
 ## Architecture
 [Attacker: Host Machine] --SSH (port 22)--> [Ubuntu 24.04 VM: iptables redirect] --> [Cowrie listener: port 2222]
 |
