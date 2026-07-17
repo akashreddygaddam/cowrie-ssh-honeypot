@@ -27,10 +27,7 @@ simulating real-world SOC log analysis workflows.
 *A simulated attacker logging into the honeypot and running commands, captured live*
 
 ## Architecture
-[Attacker: Host Machine] --SSH (port 22)--> [Ubuntu 24.04 VM: iptables redirect] --> [Cowrie listener: port 2222]
-|
-v
-[JSON + text logs]
+![Architecture diagram](screenshots/architecture.png)
 
 ## What I Did
 - Deployed Cowrie (v3.0.6) on a dedicated, non-root Linux user for security best practice
