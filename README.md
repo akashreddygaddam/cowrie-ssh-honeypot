@@ -1,8 +1,10 @@
 # SSH Honeypot with Cowrie — Threat Detection Lab
 
-![Linux](https://img.shields.io/badge/OS-Linux-informational)
-![Python](https://img.shields.io/badge/Made%20with-Python-blue)
-![Cowrie](https://img.shields.io/badge/Honeypot-Cowrie-critical)
+![Cowrie](https://img.shields.io/badge/Honeypot-Cowrie%20v3.0.6-red?style=flat-square)
+![Ubuntu](https://img.shields.io/badge/OS-Ubuntu%2024.04-orange?style=flat-square&logo=ubuntu&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.12-blue?style=flat-square&logo=python&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=flat-square)
+![License](https://img.shields.io/badge/License-Educational-lightgrey?style=flat-square)
 
 ## Table of Contents
 - [Overview](#overview)
