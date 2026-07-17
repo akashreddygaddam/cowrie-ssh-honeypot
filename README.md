@@ -53,53 +53,14 @@ timestamps, and file hashes — the same format a SIEM tool would ingest for
 correlation and alerting.
 
 ## Screenshots
+![Login attempt](screenshots/login-attempt.png)
+*Fake SSH session showing an attacker's commands being captured*
 
-| 
-Fake Login Session 
-| 
-Session Replay 
-| 
-JSON Logs 
-|
-|
-:---:
-|
-:---:
-|
-:---:
-|
-| 
-!
-[Login
-](
-screenshots/login-attempt.png
-) 
-| 
-!
-[
-Replay
-](
-screenshots/playlog-replay.png
-) 
-| 
-!
-[
-JSON
-](
-screenshots/json-log-sample.png
-) 
-|
-| 
-*Attacker commands captured live
-* 
-| 
-*Full session replayed via `playlog`
-* 
-| 
-*
-Structured logs ready for SIEM ingestion
-* 
-|
+![Session replay](screenshots/playlog-replay.png)
+*Replaying a full attacker session keystroke-by-keystroke using `playlog`*
+
+![JSON log sample](screenshots/json-log-sample.png)
+*Structured JSON logs ready for SIEM ingestion*
 
 ## Challenges & Lessons Learned
 Real deployments rarely go exactly as documented, and this project was no
